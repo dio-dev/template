@@ -1,5 +1,6 @@
 .DS_Store
 .idea
 bower_components/
-/node_modules*
-.map//fonts
+/node_modules
+**/maps
+**/fonts
