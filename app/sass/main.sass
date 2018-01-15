@@ -1,0 +1,130 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666 
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666 
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+img
+	max-width: 100%
+*
+	outline: none
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.4
+	color: $color-main
+	overflow-x: hidden
+	font-family: $default-font
+	background-color: #fff
+	opacity: 1
+
+//slick arrow
+.slick-arrow
+	position: absolute
+	top: 50%
+	background-image: url(../img/slider-arow.png)
+	width: 10px
+	background-repeat: no-repeat
+	height: 16px
+	transform: translateY(-50%)
+	background-color: transparent
+	outline: none
+	border: none
+	font-size: 0
+	&:hover
+		opacity: .7
+		transition: all 300ms
+	&.slick-prev
+		z-index: 2
+		left: 35px
+		transform: translateY(-50%) rotate(180deg)
+	&.slick-next
+		right: 35px
+
+//slick dots
+.slick-dots
+	padding-left: 0
+	position: absolute
+	right: 60px
+	margin: auto
+	bottom: 25px
+	@media(max-width: $--md)
+		bottom: -20px
+		text-align: center
+		left: 0
+		right: 0
+		margin: auto
+	li
+		display: inline-block
+		vertical-align: middle
+		list-style: none
+		margin: 0 3px
+		button
+			background-color: transparent
+			width: 7px
+			height: 7px
+			border: 1px solid #f7f8f8
+			border-radius: 50%
+			font-size: 0
+			content: ""
+			outline: none
+			position: relative
+			font-size: 0
+			padding: 0
+			@media(max-width: $--md)
+				boreder-color: #000
+		&.slick-active button
+			background-color: #fff
+			@media(max-width: $--md)
+				background-color: #000
+//arow top
+.arow-top
+	position: fixed
+	cursor: pointer
+	right: 5%
+	bottom: 5%
+	border-radius: 50%
+	width: 50px
+	height: 50px
+	background-color: #7a7a7a
+	text-align: center
+	padding-top: 19px
+	z-index: 2
+	button
+		background-color: transparent
+		border: none
+		width: 15px
+		height: 15px
+		padding: 0
+		border-top: 3px solid #fff
+		border-left: 3px solid #fff
+		transform: rotate(45deg)
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+.container
+	max-width: 1170px 
+	
