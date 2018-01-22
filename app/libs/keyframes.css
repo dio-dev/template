@@ -1,0 +1,35 @@
+@keyframes waveaction{
+	0%{
+		/*border: 110px solid rgba(250,248,42, .2);*/
+		transform: scale(1) translate(-50%, -50%);
+		height: 300px;
+		width: 300px;
+	}
+	100%{
+		transform: scale(1.45) translate(-50%, -50%);
+	}
+}
+@keyframes waveaction1{
+	0%{
+		transform: scale(1) translate(-50%, -50%);
+		/*border: 45px solid rgba(250,248,42, .2);*/
+		height: 160px;
+		width: 160px;
+	}
+	100%{
+		transform: scale(1.875) translate(-50%, -50%);
+	}
+}
+@keyframes waveaction2{
+	0%{
+		transform: scale(1) translate(-50%, -50%);
+		/*border: 2px solid rgba(250,248,42, .2);*/
+		height: 70px;
+		width: 70px;
+	}
+	100%{
+		transform: scale(2.3) translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+	}
+}

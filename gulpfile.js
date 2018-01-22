@@ -29,8 +29,10 @@ gulp.task('common-js', function() {
 gulp.task('js', ['common-js'], function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/jquery.maskedinput.min.js',
 		'app/libs/jquery.fancybox.min.js',
 		'app/libs/jquery.animateNumber.min.js',
+		'app/libs/jquery.easypiechart.js',
 		'app/libs/jquery.viewportchecker.min.js',
 		'app/libs/slick.min.js',  
 		'app/js/common.min.js', // Всегда в конце

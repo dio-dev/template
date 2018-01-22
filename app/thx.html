@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800&amp;subset=cyrillic" rel="stylesheet">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<div class="overflow-wrap">
+		
+		<header class="header header--page">
+			<div class="header-relative">
+
+				<div class="container">
+					<div class="header-top">
+
+						<div class="header-top__logo">
+							<a href="#"><img src="img/logo.png" alt="logo"></a>
+						</div>
+						<div class="header-top__mobile-wrap">
+							<div class="header-top__menu">
+								<ul>
+									<li><a href="#rates">Тарифы</a></li>
+									<li><a href="#pay">оплатить</a></li>
+									<li><a href="#reviews">Отзывы</a></li>
+									<li><a href="#questions">Вопросы</a></li>
+									<li><a href="#map">Карта</a></li>
+								</ul>
+							</div>
+							<div class="header__desc-call"></div>
+							<div class="header-top__call">
+								<a href="#modal-call" class="fancybox-link header-top__call-icon">
+									<img src="img/header-call-ico.png" alt="ico">
+								</a>
+								<p>
+									<a href="tel:+88007707767">8 (800) 770-77-67</a>
+									<a href="#modal-call" class="fancybox-link">Заказать звонок</a>
+								</p>
+							</div>
+							<div class="header-top__login">
+								<button>
+									<img src="img/header-login-ico.png" alt="ico">
+								</button>
+							</div>
+						</div>
+						<div class="header-top__burger">
+							<button>
+								<img src="img/burger-icon.png" alt="ico">
+							</button>
+						</div>
+
+					</div>
+					
+					<div class="header__mob-call"></div>
+				</div>
+
+			</div>
+
+		</header>
+
+		<main class="page-content">
+			<section class="not-found thx">
+				<div class="container">
+					<div class="thx__img">
+						<img src="img/thx-ico.png" alt="ico">
+					</div>
+					<p>Ваша заявка успешно отправлена! <span>Мы свяжемся с Вами в течении <b>15 минут!</b></span></p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">  
+			<div class="container">
+				<div class="footer-top">
+					<div class="footer-top__logo">
+						<a href="#"><img src="img/footer-logo.png" alt="img"></a>
+					</div>
+					<div class="footer-top__menu">
+						<ul>
+							<li><a href="#rates">Тарифы</a></li>
+							<li><a href="#reviews">Отзывы</a></li>
+							<li><a href="#questions">Вопросы</a></li>
+							<li><a href="#map">Карта</a></li>
+						</ul>
+					</div>
+					<div class="footer-top__mail">
+						<img src="img/mail-ico.png" alt="ico"><a href="mailto:otvet@4g.umobile.su">otvet@4g.umobile.su</a>
+					</div>
+					<div class="footer-top__call">
+						<a href="#modal-call" class="fancybox-link footer-top__call-icon">
+							<img src="img/header-call-ico.png" alt="ico">
+						</a>
+						<p>
+							<a href="tel:+88007707767">8 (800) 770-77-67</a>
+							<a href="#modal-call" class="fancybox-link">Заказать звонок</a>
+						</p>
+					</div>
+				</div>
+				<div class="footer-bot">
+					<div class="footer-bot__left">
+						<p>ОГРН: 1097847155493</p>
+						<p>ООО «Говори24»</p>
+					</div>
+					<div class="footer-bot__files">
+						<p>Договор оферты — <a href="#">Скачать</a></p>
+						<p>Соглашение об обработке персональных данных — <a href="#">Скачать</a></p>
+					</div>
+					<div class="footer-bot__soc">
+						<a href="#"><img src="img/footer-soc-ico1.png" alt="ico"></a>
+						<a href="#"><img src="img/footer-soc-ico2.png" alt="ico"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="hidden">
+		<div id="modal-buy-rates" class="modal modal--rates">
+			<h3 class="modal-title">Тариф <br>Хайвей <b>100 ГБ</b></h3>
+			<p>Оставьте заявку и мы свяжемся с Вами <br>в течении <b>15 минут!</b></p>
+			<form class="modal-form">
+				<input type="text" placeholder="Ваше имя" class="modal-form__input modal-form__input--name">
+				<input type="tel" placeholder="Ваш телефон" class="modal-form__input modal-form__input--phone">
+				<button class="cost-link cost-link-animate"> <span class="cost-link__icon"><img src="img/cost-link-ico.png" alt="icon"></span> пополнить</button>
+				<input type="checkbox" class="checkbox" id="ch2">
+				<label for="ch2">Даю согласие на обработку моих <br>персональных данных ( <a href="#">ознакомиться </a> )</span></label>
+			</form>
+		</div>
+
+		<div id="modal-call" class="modal modal--call">
+			<h3 class="modal-title">Заказ <b>звонка</b></h3>
+			<p>Оставьте заявку и мы свяжемся с Вами <br>в течении <b>15 минут!</b></p>
+			<form class="modal-form">
+				<input type="text" placeholder="Ваше имя" class="modal-form__input modal-form__input--name">
+				<input type="tel" placeholder="Ваш телефон" class="modal-form__input modal-form__input--phone">
+				<button class="cost-link cost-link-animate"> <span class="cost-link__icon"><img src="img/cost-link-ico.png" alt="icon"></span> заказать звонок</button>
+				<input type="checkbox" class="checkbox" id="ch2">
+				<label for="ch2">Даю согласие на обработку моих <br>персональных данных ( <a href="#">ознакомиться </a> )</span></label>
+			</form>
+		</div>
+
+		<div id="modal-buy-product" class="modal modal--buy-product">
+			<span class="modal__product-info">Модем 3G/4G</span>
+			<h3 class="modal-title">Huawei Е3372 <br>(М150-2, 827F/829F)</h3>
+			<p>Оставьте заявку и мы свяжемся с Вами <br>в течении <b>15 минут!</b></p>
+			<form class="modal-form">
+				<input type="text" placeholder="Ваше имя" class="modal-form__input modal-form__input--name">
+				<input type="tel" placeholder="Ваш телефон" class="modal-form__input modal-form__input--phone">
+				<button class="cost-link cost-link-animate"> <span class="cost-link__icon"><img src="img/cost-link-ico.png" alt="icon"></span> заказать </button>
+				<input type="checkbox" class="checkbox" id="ch2">
+				<label for="ch2">Даю согласие на обработку моих <br>персональных данных ( <a href="#">ознакомиться </a> )</span></label>
+			</form>
+		</div>
+
+		<div id="modal-info-product" class="modal modal--info-product">
+			<span class="modal__product-info">Модем 3G/4G</span>
+			<h3 class="modal-title">Huawei Е3372 (М150-2, 827F/829F)</h3>
+			<p>E3372 — 3G/4G модем от компании Huawei, известного производителя интернет-оборудования. Модем Huawei E3372 универсален, и будет работать со всеми сим-картами российских операторов YOTA, Мегафон, МТС, Билайн, Tele2, Altel, Летай, Мотив и др. Также Huawei E3372h-153 поддерживает как все отечественные частоты, так и 100% европейских, что дает Вам возможность взять его в командировку или на отдых.</p>
+			<p>E3372 — 3G/4G модем от компании Huawei, известного производителя интернет-оборудования. Модем Huawei E3372 универсален, и будет работать со всеми сим-картами российских операторов YOTA, Мегафон, МТС, Билайн, Tele2, Altel, Летай, Мотив и др. Также Huawei E3372h-153 поддерживает как все отечественные частоты, так и 100% европейских, что дает Вам возможность взять его в командировку или на отдых.</p>
+		</div>
+	</div> 
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/scripts.min.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+</html>
